@@ -143,6 +143,27 @@ BODY {
 													<TD height="2" noWrap><span class="STYLE7">必填项</span>
 													</TD>
 												</TR>
+												<TR bgColor=#ffffff height=20>
+													<TD height="2" noWrap><span class="STYLE7">标题 </span>
+													</TD>
+													<TD height="2" valign="top" noWrap><INPUT
+														type="text" class=text2 maxLength=20 size=18
+														name="title" minLength="1">
+													</TD>
+													<TD height="2" noWrap><span class="STYLE7">选填项</span>
+													</TD>
+												</TR>
+												<TR bgColor=#ffffff height=20>
+													<TD height="2" noWrap><span class="STYLE7">内容 </span>
+													</TD>
+													<TD height="2" valign="top" noWrap>
+													<textarea rows="6" cols="10" name="content" style="width: 513px; height: 396px"></textarea>
+													
+													</TD>
+													<TD height="2" noWrap><span class="STYLE7">选填项</span>
+													</TD>
+												</TR>
+												
 											</tbody>
 										</table> <br>
 									</td>

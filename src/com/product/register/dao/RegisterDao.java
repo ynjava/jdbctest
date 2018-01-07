@@ -24,7 +24,7 @@ public class RegisterDao implements RegisterService {
 		// TODO Auto-generated method stub
 		boolean flag = false;
 		jdbcHelper.getConnection();
-		String sql = "insert into userinfo(username, pswd, realname) values (?, ?, ?)";
+		String sql = "insert into userinfo(username, pswd, realname, title, content) values (?, ?, ?, ?, ?)";
 		try {
 			flag = jdbcHelper.updateByPreparedStatement(sql, params);
 		} catch (Exception e) {

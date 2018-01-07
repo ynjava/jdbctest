@@ -72,22 +72,31 @@ public class RegisterAct extends HttpServlet {
 	 *             if an error occurred
 	 */
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//获取URL
 		String path = request.getContextPath();
 		String baseUrl = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
+		//设置编码为UTF-8
 		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/html; charset=utf-8");
+		
 		PrintWriter out = response.getWriter();
 		String username = request.getParameter("username");
 		String realname = request.getParameter("realname");
 		//密码加密
 		Encrypt enp=new Encrypt();
 		String pswd = enp.SHA512(request.getParameter("pswd"));
-	
-		System.out.println("username = " + username + "  realname = " + realname + " pswd = " + pswd);
+		
+		String title = request.getParameter("title");
+		String content = request.getParameter("content");
+		
+		System.out.println("username = " + username + "  realname = " + realname + " pswd = " + pswd + " title = " + title);
 		List<Object> params = new ArrayList<Object>();
 		params.add(username);
 		params.add(pswd);
 		params.add(realname);
+		params.add(title);
+		params.add(content);
+		
 		boolean flag = service.registerUser(params);
 		if (flag) {
 			out.println("注册成功!");
