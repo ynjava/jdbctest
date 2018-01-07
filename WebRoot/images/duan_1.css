@@ -1,0 +1,103 @@
+A.dh2 {
+	FONT-SIZE: 12px; COLOR: #003366; TEXT-INDENT: 4pt; LINE-HEIGHT: normal; TEXT-DECORATION: underline
+}
+A.dh2:hover {
+	FONT-SIZE: 12px; COLOR: #0099FF; TEXT-INDENT: 4pt; LINE-HEIGHT: normal; TEXT-DECORATION: none
+}
+
+A.dh {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-INDENT: 4pt; LINE-HEIGHT: 17px; TEXT-DECORATION: none
+}
+A.dh:hover {
+	FONT-SIZE: 12px; COLOR: #a4ddff; TEXT-INDENT: 4pt; LINE-HEIGHT: 23px; TEXT-DECORATION: none
+}
+.our {
+	FONT-SIZE: 12px; COLOR: #04366d; TEXT-INDENT: 4pt
+}
+A.yd {
+	FONT-SIZE: 12px; COLOR: #9bcfff; TEXT-DECORATION: none
+}
+.white {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 23px
+}
+.hui {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 26px
+}
+A.llj {
+	FONT-WEIGHT: 600; FONT-SIZE: 14px; COLOR: #04366c; TEXT-DECORATION: none
+}
+A.llj:hover {
+	FONT-WEIGHT: 600; FONT-SIZE: 14px; COLOR: #04366c; TEXT-DECORATION: none
+}
+A.xl {
+	FONT-SIZE: 12px; COLOR: #005fc4; TEXT-DECORATION: none
+}
+A.xl:hover {
+	FONT-SIZE: 12px; COLOR: #005fc4; TEXT-DECORATION: none
+}
+.hui2 {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+.sl {
+	FONT-SIZE: 12px; COLOR: #00356d; TEXT-INDENT: 7pt; LINE-HEIGHT: 20px
+}
+A.hlj {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.hlj:hover {
+	FONT-SIZE: 12px; COLOR: #003366; TEXT-DECORATION: none
+}
+A.yd:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.unnamed1-dh {
+	VERTICAL-ALIGN: middle; TEXT-INDENT: 20pt
+}
+A.baise {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.baise:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+ls {
+	FONT-SIZE: 12px; COLOR: #04376f
+}
+.unnamed1 {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 20px
+}
+.lbt {
+	FONT-WEIGHT: 600; FONT-SIZE: 12px; COLOR: #003366
+}
+.da {
+	FONT-WEIGHT: 600; FONT-SIZE: 14px; COLOR: #009900
+}
+A {
+	TEXT-DECORATION: none
+}
+.font1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #ff6633; TEXT-DECORATION: none
+}
+.foot2 {
+	FONT-SIZE: 12px; COLOR: #336699; TEXT-DECORATION: none
+}
+.foot3 {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+.text {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 17px; BACKGROUND-COLOR: #fafafa
+}
+.text2 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #fafafa
+}
+.PB{
+	BORDER-RIGHT: #9fabbb 1px solid; BORDER-TOP: #9fabbb 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BORDER-LEFT: #9fabbb 1px solid; BORDER-BOTTOM: #9fabbb 1px solid; BACKGROUND-COLOR: #bed2fc
+}
+.redred {
+	color: #FF0000;
+	font-size: 12px;
+}
+.text3{
+	FONT-SIZE: 9pt;
+	BACKGROUND-COLOR: #FFFFFF;
+	border: 0px none #FFFFFF;
+}
